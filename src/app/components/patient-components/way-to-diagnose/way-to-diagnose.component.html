@@ -1,3 +1,142 @@
-<p>
-  way-to-diagnose works!
-</p>
+<div class="tab-pane fade" id="tab2" role="tabpanel">
+    <form class="container py-5">
+        <div class="row">
+
+            <div class="col-lg-6">
+                <label><b>Дата вперше встановленого клінічного ПІД:</b></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="first-pid" id="pidYes" value="Відомо">
+                    <label class="form-check-label" for="pidYes">
+            Відомо
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="first-pid" id="pidNo" value="Невідомо" checked>
+                    <label class="form-check-label" for="pidNo">
+            Невідомо
+          </label>
+                </div>
+
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-calendar-plus"></i></span>
+                    </div>
+                    <input type="date" class="form-control" placeholder="Дата народження" aria-label="Дата народження">
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <label><b>Чи був встановлений діагноз ПІД без наявності-асоційованих симптомів ілише на підставі лабораторних
+            відхилень:</b></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="lab-pid" id="labPidYes" value="Так">
+                    <label class="form-check-label" for="pidYes">
+            Так
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="lab-pid" id="labPidNo" value="Ні">
+                    <label class="form-check-label" for="labPidNo">
+            Ні
+          </label>
+                </div>
+
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="lab-pid" id="labPidUndefined" value="Невідомо" checked>
+                    <label class="form-check-label" for="labPidUndefined">
+            Невідомо
+          </label>
+                </div>
+
+                <div class="form-group my-3">
+                    <select class="form-control">
+            <option selected>Виберіть</option>
+            <option value="1">Львів</option>
+            <option value="2">Київ</option>
+            <option value="3">Одеса</option>
+          </select>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <label><b>Перші ПІД-асоційовані симптоми (один або декілька з-поміж наступних)</b></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Перші симптоми невідомі">
+                    <label class="form-check-label">
+            Перші симптоми невідомі
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Відсутність ПІД-асоційованих симптом">
+                    <label class="form-check-label">
+            Відсутність ПІД-асоційованих симптом
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Інфекції">
+                    <label class="form-check-label">
+            Інфекції
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Дисрегуляція імунної відповіді">
+                    <label class="form-check-label">
+            Дисрегуляція імунної відповіді
+          </label>
+                </div>
+
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-calendar-plus"></i></span>
+                    </div>
+                    <input type="date" class="form-control" placeholder="Дата народження" aria-label="Дата народження">
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Малігнізація(онконастороженість)">
+                    <label class="form-check-label">
+            Малігнізація(онконастороженість)
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Синдромальні маніфестації">
+                    <label class="form-check-label">
+            Синдромальні маніфестації
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Інше">
+                    <label class="form-check-label">
+            Інше
+          </label>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <label><b>Вкажіть дані:</b></label>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Рівень IgG(г/л)">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Рівень IgA(г/л)">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Рівень IgM(г/л)">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Рівень IgE(мо/мл)">
+                </div>
+            </div>
+
+        </div>
+        <button class="btn btn-primary mt-5 px-5">Далі</button>
+    </form>
+</div>

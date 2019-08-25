@@ -1,3 +1,137 @@
-<p>
-  diagnosis-pid works!
-</p>
+<div class="tab-pane fade" id="tab3" role="tabpanel">
+    <form class="container py-5">
+        <div class="row">
+
+            <div class="col-lg-4">
+                <label><b>Уражені гени:</b></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="urazheni-heny" id="urazheni-heny-yes" value="Генетичне дослідження не проводилось">
+                    <label class="form-check-label" for="urazheni-heny-yes">
+            Генетичне дослідження не проводилось
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="urazheni-heny" id="urazheni-heny-yes-no" value="Історія генетичних досліджень невідома" checked>
+                    <label class="form-check-label" for="urazheni-heny-yes-no">
+            Історія генетичних досліджень невідома
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="urazheni-heny" id="urazheni-heny-yes-no2" value="Генетичне дослідження не проводилось, мутації не виявлено" checked>
+                    <label class="form-check-label" for="urazheni-heny-yes-no2">
+            Генетичне дослідження не проводилось, мутації не виявлено
+          </label>
+                </div>
+
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-edit"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Введіть дані">
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="urazheni-heny" value="Генетичне дослідження не проводилось, мутації виявлено" checked>
+                    <label class="form-check-label">
+            Генетичне дослідження не проводилось, мутації виявлено
+          </label>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <label><b>Дата генетичного дослідження:</b></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="data-henetychnoho-doslidzhennia" value="Невідомо">
+                    <label class="form-check-label">
+            Невідомо
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="data-henetychnoho-doslidzhennia" value="Відомо">
+                    <label class="form-check-label">
+            Відомо
+          </label>
+                </div>
+
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-calendar-plus"></i></span>
+                    </div>
+                    <input type="date" class="form-control" placeholder="Дата народження" aria-label="Дата народження">
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <label><b>Метод секвенування:</b></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="metod-sekvenuvannia" value="Секвенування гена">
+                    <label class="form-check-label">
+            Секвенування гена
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="metod-sekvenuvannia" value="Екзом/геном секвенування">
+                    <label class="form-check-label">
+            Екзом/геном секвенування
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="metod-sekvenuvannia" value="Невідомо">
+                    <label class="form-check-label">
+            Невідомо
+          </label>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <label><b>Лабораторія яка проводила генетичні дслідження:</b></label>
+                <div class="form-group">
+                    <select class="form-control">
+            <option selected>Виберіть</option>
+            <option value="1">Львів</option>
+            <option value="2">Київ</option>
+            <option value="3">Одеса</option>
+          </select>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <label><b>Причина генетичного дслідження:</b></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="prychyna-henetychnoho-dslidzhennia" value="Специфічні клінічні симптоми">
+                    <label class="form-check-label">
+            Специфічні клінічні симптоми
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="prychyna-henetychnoho-dslidzhennia" value="Сімейний скринінг">
+                    <label class="form-check-label">
+            Сімейний скринінг
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="prychyna-henetychnoho-dslidzhennia" value="Пренатальна діагностика">
+                    <label class="form-check-label">
+            Пренатальна діагностика
+          </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="prychyna-henetychnoho-dslidzhennia" value="Невідомо">
+                    <label class="form-check-label">
+            Невідомо
+          </label>
+                </div>
+            </div>
+
+        </div>
+        <button class="btn btn-primary mt-5 px-5">Далі</button>
+    </form>
+</div>

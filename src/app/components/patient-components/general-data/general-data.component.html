@@ -1,3 +1,118 @@
-<p>
-  general-data works!
-</p>
+<div сlass="tab-pane fade" id="tab1" role="tabpanel">
+    <form class="container py-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-user-edit"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="ПІД" aria-label="ПІД">
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-calendar-plus"></i></span>
+                    </div>
+                    <input type="date" class="form-control" placeholder="Дата народження" aria-label="Дата народження">
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <label><b>Стать:</b></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="sex" id="female" value="Жіноча">
+                    <label class="form-check-label" for="female">
+                      Жіноча
+                  </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="sex" id="male" value="Чоловіча" checked>
+                    <label class="form-check-label" for="male">
+                      Чоловіча
+                  </label>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                    </div>
+                    <select class="form-control">
+                      <option selected>Місто народження</option>
+                      <option value="1">Львів</option>
+                      <option value="2">Київ</option>
+                      <option value="3">Одеса</option>
+                  </select>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                    </div>
+                    <select class="form-control">
+                      <option selected>Місто проживання</option>
+                      <option value="1">Львів</option>
+                      <option value="2">Київ</option>
+                      <option value="3">Одеса</option>
+                  </select>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <label><b>Згода пацієнта на використання персональних даних:</b></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="personal-data" value="Цілковита">
+                    <label class="form-check-label">
+                      Цілковита
+                  </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="personal-data" value="года лише на науквий аналіз">
+                    <label class="form-check-label">
+                      Згода лише на науквий аналіз
+                  </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="personal-data" value="Не застосовується">
+                    <label class="form-check-label">
+                      Не застосовується
+                  </label>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <label><b>Генетично ускладнений сімейний анамез ПІД:</b></label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="anemez" value="Так">
+                    <label class="form-check-label">
+                      Так
+                  </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="anemez" value="Ні">
+                    <label class="form-check-label">
+                      Ні
+                  </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="anemez" value="Невідомо">
+                    <label class="form-check-label">
+                      Невідомо
+                  </label>
+                </div>
+            </div>
+
+        </div>
+        <button class="btn btn-primary mt-5 px-5">Далі</button>
+    </form>
+</div>
